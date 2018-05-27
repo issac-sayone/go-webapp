@@ -36,6 +36,7 @@ restart:
 
 deps:
 	$(GOGET) github.com/kardianos/govendor
+	$(GOGET) github.com/olivere/elastic
 	govendor sync
 
 cross:
